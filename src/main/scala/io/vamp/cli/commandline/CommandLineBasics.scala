@@ -1,6 +1,6 @@
-package io.vamp.core.cli.commandline
+package io.vamp.cli.commandline
 
-import io.vamp.core.cli.commands._
+import io.vamp.cli.commands._
 
 trait CommandLineBasics {
 

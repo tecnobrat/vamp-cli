@@ -1,10 +1,10 @@
-package io.vamp.core.cli.commands
+package io.vamp.cli.commands
 
 import java.util.concurrent.TimeUnit
 
-import io.vamp.core.cli.commandline.Parameters
-import io.vamp.core.model.artifact._
-import io.vamp.core.model.reader._
+import io.vamp.cli.commandline.Parameters
+import io.vamp.model.artifact._
+import io.vamp.model.reader._
 
 import scala.concurrent.duration._
 

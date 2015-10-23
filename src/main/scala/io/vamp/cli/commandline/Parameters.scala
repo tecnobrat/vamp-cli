@@ -1,4 +1,4 @@
-package io.vamp.core.cli.commandline
+package io.vamp.cli.commandline
 
 trait Parameters extends CommandLineBasics {
 

@@ -1,9 +1,9 @@
-package io.vamp.core.cli.commands
+package io.vamp.cli.commands
 
-import io.vamp.core.cli.backend.VampHostCalls
-import io.vamp.core.cli.commandline.ConsoleHelper
-import io.vamp.core.model.artifact._
-import io.vamp.core.model.reader._
+import io.vamp.cli.backend.VampHostCalls
+import io.vamp.cli.commandline.ConsoleHelper
+import io.vamp.model.artifact._
+import io.vamp.model.reader._
 
 import scala.language.{ implicitConversions, postfixOps }
 

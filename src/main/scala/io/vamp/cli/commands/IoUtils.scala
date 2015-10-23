@@ -1,11 +1,11 @@
-package io.vamp.core.cli.commands
+package io.vamp.cli.commands
 
 import java.io.File
 
-import io.vamp.core.cli.backend.VampHostCalls
-import io.vamp.core.cli.commandline.Parameters
-import io.vamp.core.model.artifact.Artifact
-import io.vamp.core.model.serialization.CoreSerializationFormat
+import io.vamp.cli.backend.VampHostCalls
+import io.vamp.cli.commandline.Parameters
+import io.vamp.model.artifact.Artifact
+import io.vamp.model.serialization.CoreSerializationFormat
 import org.json4s.native.Serialization._
 import org.yaml.snakeyaml.DumperOptions.FlowStyle
 import org.yaml.snakeyaml.Yaml

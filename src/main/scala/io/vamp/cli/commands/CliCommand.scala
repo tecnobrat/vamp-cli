@@ -1,6 +1,6 @@
-package io.vamp.core.cli.commands
+package io.vamp.cli.commands
 
-import io.vamp.core.cli.commands.CommandType.CommandType
+import io.vamp.cli.commands.CommandType.CommandType
 
 object CommandType extends Enumeration {
   type CommandType = Value

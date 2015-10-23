@@ -1,7 +1,7 @@
-package io.vamp.core.cli
+package io.vamp.cli
 
-import io.vamp.core.cli.commandline.Parameters
-import io.vamp.core.cli.commands.{ HelpCommand, PerformCommand }
+import io.vamp.cli.commandline.Parameters
+import io.vamp.cli.commands.{ HelpCommand, PerformCommand }
 
 trait VampCli extends Parameters {
 

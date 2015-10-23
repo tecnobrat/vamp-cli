@@ -1,14 +1,14 @@
-package io.vamp.core.cli.backend
+package io.vamp.cli.backend
 
 import java.util
 
 import io.vamp.common.http.RestClient.Method
 import io.vamp.common.http.{ RestApiContentTypes, RestApiMarshaller, RestClient, RestClientException }
 import io.vamp.common.http.{ RestApiContentTypes, RestApiMarshaller, RestClient }
-import io.vamp.core.cli.commandline.CommandLineBasics
-import io.vamp.core.cli.commands.IoUtils
-import io.vamp.core.model.artifact._
-import io.vamp.core.model.reader._
+import io.vamp.cli.commandline.CommandLineBasics
+import io.vamp.cli.commands.IoUtils
+import io.vamp.model.artifact._
+import io.vamp.model.reader._
 import org.json4s.native._
 import org.yaml.snakeyaml.DumperOptions.FlowStyle
 import org.yaml.snakeyaml.Yaml

@@ -1,3 +1,3 @@
-package io.vamp.core.cli
+package io.vamp.cli
 
 object Boot extends VampCli
