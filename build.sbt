@@ -18,7 +18,7 @@ scalariformSettings ++ Seq(ScalariformKeys.preferences := ScalariformKeys.prefer
   .setPreference(RewriteArrowSymbols, true))
 
 lazy val root = project.in(sbt.file(".")).dependsOn(
-  // for some reason it doesn't work for uri(git://github.com/magneticio/vamp.git)
+  // for some reason it doesn't work for uri("git://github.com/magneticio/vamp.git")
   // workaround: vamp project needs to be checked out in ../
   ProjectRef(uri("../vamp"), "model")
 )
