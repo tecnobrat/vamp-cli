@@ -56,8 +56,7 @@ trait CommandLineBasics {
       case _ ⇒ {
         if (command.allowedArtifacts.isEmpty) {
           println(s"Usage: ".bold + "" + s"$appName ${command.name} ${if (command.requiresName) "NAME " else ""}${if (command.additionalParams.nonEmpty) command.additionalParams else ""} ")
-        }
-        else {
+        } else {
           println(s"Usage: ".bold + "" + s"$appName ${command.name} ${command.allowedArtifacts.mkString("|")} ${if (command.requiresName) "NAME " else ""}${if (command.additionalParams.nonEmpty) command.additionalParams else ""} ")
         }
 
