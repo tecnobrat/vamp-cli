@@ -1,0 +1,2 @@
+# vamp-cli
+Vamp CLI
